@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySolution", "MySolution\My
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common_VS2015", "Common\Common_VS2015\Common_VS2015.vcxproj", "{B2C51B36-BFBB-4925-96EC-732E87AB20B3}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyInstaller_Win32", "MySolutionInstaller\MyInstaller_Win32\MyInstaller_Win32.vdproj", "{C2F8F662-C1DF-4521-9D70-50D1854D75CA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyInstaller_x64", "MySolutionInstaller\MyInstaller_x64\MyInstaller_x64.vdproj", "{96956E40-FC82-4368-A750-BE2AE4AF5746}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +35,14 @@ Global
 		{B2C51B36-BFBB-4925-96EC-732E87AB20B3}.Release|x64.Build.0 = Release|x64
 		{B2C51B36-BFBB-4925-96EC-732E87AB20B3}.Release|x86.ActiveCfg = Release|Win32
 		{B2C51B36-BFBB-4925-96EC-732E87AB20B3}.Release|x86.Build.0 = Release|Win32
+		{C2F8F662-C1DF-4521-9D70-50D1854D75CA}.Debug|x64.ActiveCfg = Debug
+		{C2F8F662-C1DF-4521-9D70-50D1854D75CA}.Debug|x86.ActiveCfg = Debug
+		{C2F8F662-C1DF-4521-9D70-50D1854D75CA}.Release|x64.ActiveCfg = Release
+		{C2F8F662-C1DF-4521-9D70-50D1854D75CA}.Release|x86.ActiveCfg = Release
+		{96956E40-FC82-4368-A750-BE2AE4AF5746}.Debug|x64.ActiveCfg = Debug
+		{96956E40-FC82-4368-A750-BE2AE4AF5746}.Debug|x86.ActiveCfg = Debug
+		{96956E40-FC82-4368-A750-BE2AE4AF5746}.Release|x64.ActiveCfg = Release
+		{96956E40-FC82-4368-A750-BE2AE4AF5746}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
